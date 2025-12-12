@@ -17,19 +17,19 @@ Ensure you have Python installed, then run the following command to install the 
 Bash
 pip install -requirements.txt
 
-2. Project Setup
+### 2. Project Setup
 Ensure your project folder contains the following files:
 main.py: The main execution script.
 utils.py: The file containing helper functions (blur, LUT, display).
 image.jpg: Your input image file.
 
-3. Execution
+### 3. Execution
 Run the project by executing the main script in your terminal:
 Bash
 python main.py
 (Note: You can change the input image filename inside main.py by modifying the IMAGE_PATH variable).
 
-Screenshots / Output Images
+### 📸 Screenshots / Output Images
 Below is a comparison between the original input image and the posterized output (with n=5 levels).
 color <img width="1237" height="699" alt="output" src="https://github.com/user-attachments/assets/314f12a8-80bd-427e-a1a1-d64426c44ab5" />
 
