@@ -11,7 +11,7 @@ from utils import (
 def main():
     # --- Configuration ---
     # Replace with the actual path to your image file (e.g., 'obama.jpg' or 'image_0.png')
-    IMAGE_PATH = 'assets/input/sample.jpg' 
+    IMAGE_PATH = 'assets/input/cat.jpg' 
     # Number of color levels for posterization (e.g., 5 as requested)
     N_LEVELS = 5
     # Resize dimensions for consistent display (width, height)
