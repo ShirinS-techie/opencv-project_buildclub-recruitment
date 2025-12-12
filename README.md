@@ -31,5 +31,6 @@ python main.py
 
 ### 📸 Screenshots / Output Images
 Below is a comparison between the original input image and the posterized output (with n=5 levels).
-color <img width="1237" height="699" alt="output" src="https://github.com/user-attachments/assets/314f12a8-80bd-427e-a1a1-d64426c44ab5" />
+<img width="1236" height="706" alt="output real" src="https://github.com/user-attachments/assets/33b0760a-ffd0-4c20-9da1-75c3a91f86b5" />
+
 
