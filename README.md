@@ -8,7 +8,7 @@ The processing pipeline consists of four main stages:
 2.  **Noise Reduction (Smoothing):** A **Median Blur** filter (kernel size 7) is applied. This step smoothes out fine textures (like noise or roughness) while preserving strong edges, which is crucial for creating clean, "painted" color blocks.
 3.  **Color Quantization (Look-Up Table):** A custom **Look-Up Table (LUT)** is generated to map the continuous 0-255 pixel range into `n` discrete levels (e.g., 5 levels). 
     * The algorithm uses integer division to categorize pixels into bins and assigns them the center value of that bin. This effectively reduces the color palette of the image.
-4.  **Optimization:** * Instead of iterating through every pixel, `cv2.LUT()` is used to vectorise the operation, applying the color mapping instantly across the entire image.
+4.  **Optimization:** Instead of iterating through every pixel, `cv2.LUT()` is used to vectorise the operation, applying the color mapping instantly across the entire image.
 
 ## ⚙️ Steps to Run the Model
 
